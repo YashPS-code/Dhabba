@@ -1,0 +1,175 @@
+.imgdiv {
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.img_str {
+    padding: 10px;
+    display: flex;
+    font-size: 2rem;
+    color: white;
+    position: relative;
+    box-sizing: border-box;
+    border: 1px dotted black;
+    height: 30vw;
+    width: 30vw;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.img_str:hover {
+    filter: brightness(50%);
+}
+
+.img_str:hover:after {
+    content: "Explore More";
+    filter: brightness(100%)
+}
+
+.img_str img {
+    object-fit: contain;
+    width: 10vw;
+}
+
+
+.btn1 {
+    background-image: url("food_images/paratha.jpg");
+    background-size: cover;
+}
+
+.btn1:after {
+    content: "North Indian";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 2.25vw;
+    text-shadow: 1px 1px black;
+    transform: translate(-50%, -50%);
+}
+
+.btn2 {
+    background-image: url("food_images/dosa.jpg");
+    background-size: cover;
+}
+
+.btn2:after {
+    content: "South Indian";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 2.25vw;
+    text-shadow: 1px 1px black;
+    transform: translate(-50%, -50%);
+}
+
+.btn3 {
+    background-image: url("food_images/chomen.jpg");
+    background-size: cover;
+}
+
+.btn3:after {
+    content: "Desi Chinese";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 2.25vw;
+    text-shadow: 1px 1px black;
+    transform: translate(-50%, -50%);
+}
+
+.btn4 {
+    background-image: url("food_images/pasta.jpg");
+    background-size: cover;
+}
+
+.btn4:after {
+    content: "Pastas";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 2.25vw;
+    text-shadow: 1px 1px black;
+    transform: translate(-50%, -50%);
+}
+
+.btn5 {
+    background-image: url("food_images/sandwhich.jpg");
+    background-size: cover;
+}
+
+.btn5:after {
+    content: "Snacks";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 2.25vw;
+    text-shadow: 1px 1px black;
+    transform: translate(-50%, -50%);
+}
+
+.btn6 {
+    background-image: url("food_images/samosachaat.jpg");
+    background-size: cover;
+}
+
+.btn6:after {
+    content: "Chaat";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 2.25vw;
+    text-shadow: 1px 1px black;
+    transform: translate(-50%, -50%);
+}
+
+.btn7 {
+    background-image: url("food_images/milkshake.jpg");
+    background-size: cover;
+}
+
+.btn7:after {
+    content: "Drinks";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 2.25vw;
+    text-shadow: 1px 1px black;
+    transform: translate(-50%, -50%);
+}
+
+.btn8 {
+    background-image: url("food_images/cake.jpg");
+    background-size: cover;
+}
+
+.btn8:after {
+    content: "Cakes 'n' Pastries";
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    font-size: 2.25vw;
+    text-shadow: 1px 1px black;
+    transform: translate(-50%, -50%);
+}
+
+.btn9 {
+    background-image: url("food_images/gulab-jamun.jpg");
+    background-size: cover;
+}
+
+.btn9:after {
+    content: "Sweets 'n' Desserts";
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    font-size: 2.25vw;
+    text-shadow: 1px 1px black;
+    transform: translate(-50%, -50%);
+}

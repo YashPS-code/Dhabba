@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@Dhabba</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="nxtWin.css">
+    
+</head>
+
+<body>
+    <header>
+        <span id="head_logo">Dhabba</span>
+        <input type="search" placeholder="Food Search . . ." id="srch">
+        <div id="cartDiv">
+            <a href="cart.html">
+                <img src="dependent_images/shopping-cart.png" alt="Cart" class="cartRelImg" id="cartImg">
+            </a>
+            <div id="cartBox">
+                <h3 class="line" style="text-align: center;">Your Cart</h3>
+                <p id="cartText">:( Cart is Empty</p>
+                <div id="cartListing">
+                </div>
+                <div id="xOutDiv">
+                    <hr>
+                    <div id="xCartDiv">
+                        <b><i id="costing">₹0</i></b>
+                        <button id="orderBtn">Place Order</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="head_div">
+            <button class="headbtn">LogIn</button>
+            <div class="flash_box"></div>
+            <button class="headbtn">SignUp</button>
+        </div>
+    </header>
+    <main>
+        <h2 id="nxtWin_txt"></h2>
+        <div id="categoryList">
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li>About Us</li>
+            <li>Contact Us</li>
+        </ul>
+        <span id="cr">Dhabba food products pvt. ltd.</span>
+        <span id="cr">&copy;All rights reserved</span>
+    </footer>
+    <script src="nxtWin.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+#cart_div {
+  display: flex;
+}
+
+.incart_img {
+  height: 15vw;
+  width: 15vw;
+  margin: 1vw;
+  margin-bottom: 10vh;
+}
+
+#whole_cart_items {
+  display: flex;
+  justify-content:space-between;
+}

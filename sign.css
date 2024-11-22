@@ -1,0 +1,62 @@
+#signInDiv,#signUpDiv {
+    visibility: hidden;
+}
+
+#upperBox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 90%;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+}
+
+#boxTogether {
+    z-index: 200;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+#innerBox {
+    z-index: 300;
+    padding: 5vw;
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fde4ce;
+    border-radius: 5px;
+    gap: 2vh;
+}
+
+#getOTP {
+    font-family: "Roboto";
+    border-radius: 3px;
+    background-color: #AAD15F;
+    border: none;
+    height: 8vh;
+    width: 20vw;
+    font-size: 1.25vw;
+    cursor: pointer;
+}
+
+#sgn {
+    font-size: 2vw;
+    font-family: "Roboto Slab";
+}
+
+#exitBtn {
+    align-self: first baseline;
+    z-index: 300;
+    background: none;
+    border: none;
+    color: whitesmoke;
+    cursor: pointer;
+}

@@ -1,0 +1,104 @@
+*{
+  margin:0;
+  border:0;
+}
+
+.flash_box {
+  display: flex;
+  background-image: "food_images/cholebhaturef1.jpg";
+}
+
+.line{
+  margin-bottom: 4px;
+  border-width: 0px 0px 1px 0px;
+  border-style: solid;
+  border-color: black;
+}
+
+.nxtWin_cat{
+  margin-bottom:0.5vw;
+}
+
+#categoryList{
+  display:flex;
+  flex-direction:column;
+  gap:0.5vw;
+  padding:1vw;
+}
+
+.optionY{
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+}
+
+span{
+  display:block;
+}
+
+img{
+  height:15vw;
+  width: 15vw;
+  margin:1vw;
+}
+
+.cartRelImg{
+  cursor:pointer;
+  width:2vw;
+  height:2vw;
+}
+
+.cartRelImg:hover{
+  transform:scale(1.1);
+}
+
+#cartDiv:hover #cartBox{
+  display: block;
+}
+
+#cartBox{
+  display:none;
+  background-color: white;
+  color:black;
+  border-radius: 5px;
+  position:fixed;
+  top:10vh;
+  right:0.5vw;
+  padding:2vw;
+  z-index:500;
+}
+
+#qtyDiv{
+  margin:5px;
+}
+
+.inCartImg{
+  height:8vw;
+  width:8vw;
+}
+
+#xCartDiv{
+  display: flex;
+  justify-content:space-between;  
+}
+
+#orderBtn,.categoryBtn{
+  margin:5px;
+  font-family: "Roboto";
+  border-radius: 3px;
+  background-color: #AAD15F;
+  border: none;
+  font-size: 1.25vw;
+}
+
+hr{
+  margin:2px;
+  height:1px;
+  border-width:0;
+  color:gray;
+  background-color:gray;
+}
+
+#xOutDiv{
+  display:none;
+}

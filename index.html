@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhabba</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="dhabba.css">
+    <link rel="stylesheet" href="sign.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+    <script src="sign.js"></script>
+</head>
+
+<body>
+    <header>
+        <span id="head_logo">Dhabba</span>
+        <input type="search" placeholder="Food Search . . ." id="srch">
+        <div id="head_div">
+            <button class="headbtn" onclick="signinFn()">LogIn</button>
+            <button class="headbtn" onclick="signupFn()">SignUp</button>
+        </div>
+    </header>
+    <main>
+        <div class="imgdiv">
+            <div class="img_str btn1">
+            </div>
+            <div class="img_str btn2">
+            </div>
+            <div class="img_str btn3">
+            </div>
+            <div class="img_str btn4">
+            </div>
+            <div class="img_str btn5">
+            </div>
+            <div class="img_str btn6">
+            </div>
+            <div class="img_str btn7">
+            </div>
+            <div class="img_str btn8">
+            </div>
+            <div class="img_str btn9">
+            </div>
+        </div>
+    </main>
+    <div id="signUpDiv">
+        <div id="upperBox">
+        </div>
+        <div id="boxTogether">
+            <div id="innerBox">
+                <span id="sgn">Sign In</span>
+                <input type="text" placeholder=" Name" class="hidField">
+                <input type="text" placeholder=" Phone no." class="hidField">
+                <input type="E-mail" placeholder=" E-mail">
+                <Button id="getOTP">Get OTP</Button>
+            </div>
+            <Button id="exitBtn" onclick="exit()">&times;</Button>
+        </div>
+    </div>
+    <div id="signInDiv">
+        <div id="upperBox">
+        </div>
+        <div id="boxTogether">
+            <div id="innerBox">
+                <span id="sgn">Sign In</span>
+                <input type="E-mail" placeholder=" E-mail">
+                <Button id="getOTP">Get OTP</Button>
+            </div>
+            <Button id="exitBtn" onclick="exit()">&times;</Button>
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li>About Us</li>
+            <li>Contact Us</li>
+        </ul>
+        <span id="cr">Dhabba food products pvt. ltd.</span>
+        <span id="cr">&copy;All rights reserved</span>
+    </footer>
+    <script src="inBtn.js"></script>
+</body>
+
+</html>
