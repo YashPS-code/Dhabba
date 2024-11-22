@@ -47,7 +47,7 @@ document.querySelectorAll(".categoryBtn").forEach((y)=>{
         tms=true;};
       let x=actElement.split("#");
       cartList[actElement]=1;
-  document.querySelector("#cartListing").innerHTML+=`<div class="optionY" id="${actElement}"><img src=${content[Number(x[0])][1][Number(x[1])][2]} class="inCartImg"><div class="descriptionDiv"><h4>${content[Number(x[0])][1][Number(x[1])][1]}</h4><h4>${content[Number(x[0])][1][Number(x[1])][3]}</h4><div id="qtyDiv">Qty.<input type="number" min=0 value=1 class="cartRelImg"></div></div><img src="dependent_images/delete.png" alt="Del" class="cartRelImg" onclick="delBtn(this)"></div>`;
+  document.querySelector("#cartListing").innerHTML+=`<div class="optionY" id="${actElement}"><img src=${content[Number(x[0])][1][Number(x[1])][2]} class="inCartImg"><div class="descriptionDiv"><h4>${content[Number(x[0])][1][Number(x[1])][1]}</h4><h4>${content[Number(x[0])][1][Number(x[1])][3]}</h4><div id="qtyDiv">Qty.<input type="number" min=0 value=1 class="cartRelImg"></div></div><img src="delete.png" alt="Del" class="cartRelImg" onclick="delBtn(this)"></div>`;
       cost+=Number(content[Number(x[0])][1][Number(x[1])][3]);
       document.querySelector('#costing').innerText=`₹${cost}`;
     };
